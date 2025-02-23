@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "𝐐𝐔𝐄𝐄𝐍-𝐑𝐀𝐒𝐇𝐔-𝐌𝐃=RsAjCJQS#5BQrPC3vrGk3-QTvrQgnvYYqbQdfZ0nqSqy-8wx6Ggk",
 //උඩ ☝️ තියෙන Past Sesion Id කියන එක අයින් කරලා ඔයාගෙ Sesion Id එක Past කරන්න 😁
-MONGODB: process.env.MONGODB || "mongosh "mongodb+srv://cluster0.4anmk.mongodb.net/" --apiVersion 1 --username punchihewa051",
+MONGODB: process.env.MONGODB || "mongosh "mongodb+srv://punchihewa051:<db_password>@cluster0.4anmk.mongodb.net/",
 //උඩ ☝️ තියෙන Past MongoDB Url කියන එක අයින් කරලා ඔයාගෙ MongoDB Url එක Past කරන්න 😁
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/BsjkCDP/9555.jpg",
 BOT_NAME: process.env.BOT_NAME || "QUEEN-RASHU-MD",
